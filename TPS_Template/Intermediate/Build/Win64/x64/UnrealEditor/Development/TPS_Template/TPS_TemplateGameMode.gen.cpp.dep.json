@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\unreal project\\ue5_study\\tps_template\\intermediate\\build\\win64\\unrealeditor\\inc\\tps_template\\uht\\tps_templategamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unreal project\\ue5_study\\tps_template\\intermediate\\build\\win64\\x64\\tps_templateeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "e:\\unreal project\\ue5_study\\tps_template\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tps_template\\definitions.tps_template.h",
+            "e:\\unreal project\\ue5_study\\tps_template\\source\\tps_template\\tps_templategamemode.h",
+            "e:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "e:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "e:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "e:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "e:\\unreal project\\ue5_study\\tps_template\\intermediate\\build\\win64\\unrealeditor\\inc\\tps_template\\uht\\tps_templategamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

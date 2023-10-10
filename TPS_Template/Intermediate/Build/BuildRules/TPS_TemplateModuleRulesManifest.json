@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\Unreal Project\\UE5_Study\\TPS_Template\\Source\\TPS_Template\\TPS_Template.Build.cs",
+		"E:\\Unreal Project\\UE5_Study\\TPS_Template\\Source\\TPS_Template.Target.cs",
+		"E:\\Unreal Project\\UE5_Study\\TPS_Template\\Source\\TPS_TemplateEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.1"
+}

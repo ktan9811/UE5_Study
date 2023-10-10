@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\unreal project\\ue5_study\\tps_template\\source\\tps_template\\tps_template.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unreal project\\ue5_study\\tps_template\\intermediate\\build\\win64\\x64\\tps_templateeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "e:\\unreal project\\ue5_study\\tps_template\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tps_template\\definitions.tps_template.h",
+            "e:\\unreal project\\ue5_study\\tps_template\\source\\tps_template\\tps_template.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
