@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\Unreal Project\\UE5_Study\\BOOM_Tank\\Source\\BOOM_Tank\\BOOM_Tank.Build.cs",
+		"E:\\Unreal Project\\UE5_Study\\BOOM_Tank\\Source\\BOOM_Tank.Target.cs",
+		"E:\\Unreal Project\\UE5_Study\\BOOM_Tank\\Source\\BOOM_TankEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}
