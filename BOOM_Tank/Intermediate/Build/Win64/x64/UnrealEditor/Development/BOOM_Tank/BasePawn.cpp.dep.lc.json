@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\unreal project\\ue5_study\\boom_tank\\source\\boom_tank\\basepawn.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unreal project\\ue5_study\\boom_tank\\intermediate\\build\\win64\\x64\\boom_tankeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "e:\\unreal project\\ue5_study\\boom_tank\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\boom_tank\\definitions.boom_tank.h",
+            "e:\\unreal project\\ue5_study\\boom_tank\\source\\boom_tank\\basepawn.h",
+            "e:\\unreal project\\ue5_study\\boom_tank\\intermediate\\build\\win64\\unrealeditor\\inc\\boom_tank\\uht\\basepawn.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

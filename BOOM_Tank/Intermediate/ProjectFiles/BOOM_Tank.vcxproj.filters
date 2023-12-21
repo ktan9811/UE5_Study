@@ -11,6 +11,8 @@
     <None Include="..\..\Source\BOOM_TankEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\UpgradeLog.htm" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -32,6 +34,12 @@
     <Filter Include="Source\BOOM_Tank">
       <UniqueIdentifier>{5DA2722E-DEA0-3248-A7B3-56E1A7BE35E7}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\BOOM_Tank\BasePawn.cpp">
+      <Filter>Source\BOOM_Tank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOOM_Tank\BasePawn.h">
+      <Filter>Source\BOOM_Tank</Filter>
+    </ClInclude>
     <None Include="..\..\Source\BOOM_Tank\BOOM_Tank.Build.cs">
       <Filter>Source\BOOM_Tank</Filter>
     </None>
