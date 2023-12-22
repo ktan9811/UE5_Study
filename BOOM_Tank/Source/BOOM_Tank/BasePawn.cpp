@@ -11,6 +11,15 @@ ABasePawn::ABasePawn()
 	PrimaryActorTick.bCanEverTick = true;
 	CapsuleComponent = CreateDefaultSubobject<UCapsuleComponent>(TEXT("Capsule Collider"));
 	RootComponent = CapsuleComponent;
+
+	BaseMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Base Mesh"));
+	BaseMesh->SetupAttachment(CapsuleComponent);			// 캡슐에 베이스 메쉬를 부착
+
+	TurretMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Turret Mesh"));
+	TurretMesh->SetupAttachment(BaseMesh);					// 베이스 메쉬에 터렛을 부착
+
+	ProjectileSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Spawn Point"));
+	ProjectileSpawnPoint->SetupAttachment(TurretMesh);		// 터렛에 스포너 부착
 }
 
 // Called when the game starts or when spawned

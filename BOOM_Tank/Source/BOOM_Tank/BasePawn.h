@@ -19,10 +19,18 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-private:
+private:											//Ä¸½¶ + ¹Ùµð + ÅÍ·¿ + Åº¾à½ºÆ÷³Ê°¡ Æ÷ÇÔµÊ
 	UPROPERTY()
-	class UCapsuleComponent* CapsuleComponent;
+	class UCapsuleComponent* CapsuleComponent;		//CapsuleComponent »ý¼º
 
+	UPROPERTY()
+	UStaticMeshComponent* BaseMesh;					//BaseMesh;
+
+	UPROPERTY()
+	UStaticMeshComponent* TurretMesh;				//TurretMesh;
+
+	UPROPERTY()
+	USceneComponent* ProjectileSpawnPoint;			//ProjectileSpawnPoint;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

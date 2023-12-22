@@ -1345,3 +1345,40 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.22-15.26.00:061][491]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../Unreal Project/UE5_Study/BOOM_Tank/Saved/Autosaves/Game/MAP/Base_Map_Auto2.umap is in the /Temp path, will not scan.
 [2023.12.22-15.26.00:061][491]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MAP/Base_Map' took 0.039
 [2023.12.22-15.26.00:061][491]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.039
+[2023.12.22-15.36.40:745][412]LogHotReload: New module detected: UnrealEditor-BOOM_Tank-0009.dll
+[2023.12.22-15.36.41:753][416]LogHotReload: Starting Hot-Reload from IDE
+[2023.12.22-15.36.41:837][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.12.22-15.36.42:224][416]LogClass: UPackage /Script/BOOM_Tank Reload.
+[2023.12.22-15.36.42:224][416]LogClass: UClass BasePawn Reload.
+[2023.12.22-15.36.42:224][416]LogClass: Could not find existing class BasePawn in package /Script/BOOM_Tank for reload, assuming new or modified class
+[2023.12.22-15.36.42:245][416]Re-instancing BasePawn after reload.
+[2023.12.22-15.36.42:264][416]LogUObjectGlobals: Error: CDO Constructor (BOOM_TankGameMode): Failed to find /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+
+[2023.12.22-15.36.42:361][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.12.22-15.36.42:414][416]Display: HotReload took  0.7s.
+[2023.12.22-15.36.42:414][416]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 2 classes unchanged
+[2023.12.22-15.42.41:884][493]LogHotReload: New module detected: UnrealEditor-BOOM_Tank-0010.dll
+[2023.12.22-15.42.43:220][498]LogHotReload: Starting Hot-Reload from IDE
+[2023.12.22-15.42.43:347][498]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2023.12.22-15.42.43:723][498]LogClass: UPackage /Script/BOOM_Tank Reload.
+[2023.12.22-15.42.43:723][498]LogClass: UClass BasePawn Reload.
+[2023.12.22-15.42.43:723][498]LogClass: Could not find existing class BasePawn in package /Script/BOOM_Tank for reload, assuming new or modified class
+[2023.12.22-15.42.43:742][498]Re-instancing BasePawn after reload.
+[2023.12.22-15.42.43:763][498]LogUObjectGlobals: Error: CDO Constructor (BOOM_TankGameMode): Failed to find /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+
+[2023.12.22-15.42.43:883][498]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2023.12.22-15.42.43:938][498]Display: HotReload took  0.7s.
+[2023.12.22-15.42.43:938][498]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 2 classes unchanged
+[2023.12.22-15.46.01:666][ 91]LogDerivedDataCache: C:/Users/rlxo8/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.137 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 978 files in 1638 folders with total size 25 MiB.
+[2023.12.22-15.52.34:715][685]LogHotReload: New module detected: UnrealEditor-BOOM_Tank-0011.dll
+[2023.12.22-15.52.36:053][690]LogHotReload: Starting Hot-Reload from IDE
+[2023.12.22-15.52.36:166][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.12.22-15.52.36:551][690]LogClass: UPackage /Script/BOOM_Tank Reload.
+[2023.12.22-15.52.36:551][690]LogClass: UClass BasePawn Reload.
+[2023.12.22-15.52.36:551][690]LogClass: Could not find existing class BasePawn in package /Script/BOOM_Tank for reload, assuming new or modified class
+[2023.12.22-15.52.36:570][690]Re-instancing BasePawn after reload.
+[2023.12.22-15.52.36:587][690]LogUObjectGlobals: Error: CDO Constructor (BOOM_TankGameMode): Failed to find /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+
+[2023.12.22-15.52.36:696][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.12.22-15.52.36:745][690]Display: HotReload took  0.7s.
+[2023.12.22-15.52.36:745][690]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 2 classes unchanged
