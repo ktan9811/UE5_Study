@@ -16,6 +16,8 @@ class BOOM_TANK_API ATank : public ABasePawn
 	
 public:
 	ATank();
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 private:
 
@@ -24,4 +26,14 @@ private:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Component", meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* CameraComponent;
+
+	UPROPERTY(EditAnyWhere, Category = "Movement", meta = (AllowPrivateAccess = "true"))
+	float Speed = 100.f;
+
+	UPROPERTY(EditAnyWhere, Category = "Movement", meta = (AllowPrivateAccess = "true"))
+	float TurnRate = 10.f;
+
+
+	void Move(float Val);
+	void Turn(float Val);
 };
