@@ -21,7 +21,9 @@
             "e:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dialoguetypes.generated.h",
             "e:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
             "e:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
-            "e:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h"
+            "e:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
+            "e:\\unreal project\\ue5_study\\boom_tank\\source\\boom_tank\\projectile.h",
+            "e:\\unreal project\\ue5_study\\boom_tank\\intermediate\\build\\win64\\unrealeditor\\inc\\boom_tank\\uht\\projectile.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

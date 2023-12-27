@@ -9,8 +9,8 @@
 
  // 타워는 탱크가 사거리에 있을 떄 행동
  // 1. 탱크가 사거리에 들어오면
- // 2. 탱크 방향으로 회전
- // 3. 발포
+ // 2. 탱크 방향으로 터렛을 회전
+ // 3. 일정 시간마다 발포
 
 UCLASS()
 class BOOM_TANK_API ATower : public ABasePawn
@@ -26,8 +26,14 @@ protected:
 	virtual void BeginPlay() override;
 
 private:
-	class ATank* Tank;
+	class ATank* Tank;				//탱크와의 거리를 계산
 
 	UPROPERTY(EditDefaultsOnly)
-	float FireRange = 300.0f;
+	float FireRange = 1000.0f;
+
+	FTimerHandle FireRateTimerHandle;
+	float FireRate = 2.0f;
+	void CheckFireCondition();
+
+	bool InFireRange();
 };

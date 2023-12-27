@@ -6,9 +6,11 @@
 #include "BasePawn.h"
 #include "Tank.generated.h"
 
-/**
- * 
- */
+// 1. 플레이어가 조작하는 탱크
+// 2. 터렛과 바디가 따로 작동
+// 3. WASD 입력을 받고 좌클릭으로 Fire 입력을 받음
+
+
 UCLASS()
 class BOOM_TANK_API ATank : public ABasePawn
 {

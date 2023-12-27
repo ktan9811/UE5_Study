@@ -6,6 +6,10 @@
 #include "GameFramework/Pawn.h"
 #include "BasePawn.generated.h"
 
+// 탱크와 터렛으로 구성 된 게임의 베이스 폰
+// 캡슐 + 바디 + 터렛 + 탄약 스포너로 구성
+// 터렛 회전, 발포 기능이 포함 됨
+
 UCLASS()
 class BOOM_TANK_API ABasePawn : public APawn
 {
@@ -20,6 +24,7 @@ public:
 
 protected:
 	void RotateTurret(FVector LookAtTarget);
+	void Fire();
 
 private:											//캡슐 + 바디 + 터렛 + 탄약스포너가 포함됨
 
@@ -36,4 +41,6 @@ private:											//캡슐 + 바디 + 터렛 + 탄약스포너가 포함됨
 	USceneComponent* ProjectileSpawnPoint;			//ProjectileSpawnPoint;
 
 
+	UPROPERTY(EditAnyWhere, Category = "Combat")	//UClass 생성
+	TSubclassOf<class AProjectile> ProjectileClass;
 };
