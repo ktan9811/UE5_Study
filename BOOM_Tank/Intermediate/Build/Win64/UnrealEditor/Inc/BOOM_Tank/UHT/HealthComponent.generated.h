@@ -9,6 +9,9 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class AController;
+class UDamageType;
 #ifdef BOOM_TANK_HealthComponent_generated_h
 #error "HealthComponent.generated.h already included, missing '#pragma once' in HealthComponent.h"
 #endif
@@ -17,7 +20,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_Unreal_Project_UE5_Study_BOOM_Tank_Source_BOOM_Tank_HealthComponent_h_16_SPARSE_DATA
 #define FID_Unreal_Project_UE5_Study_BOOM_Tank_Source_BOOM_Tank_HealthComponent_h_16_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_Unreal_Project_UE5_Study_BOOM_Tank_Source_BOOM_Tank_HealthComponent_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_Unreal_Project_UE5_Study_BOOM_Tank_Source_BOOM_Tank_HealthComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Unreal_Project_UE5_Study_BOOM_Tank_Source_BOOM_Tank_HealthComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDamageTaken);
+
+
 #define FID_Unreal_Project_UE5_Study_BOOM_Tank_Source_BOOM_Tank_HealthComponent_h_16_ACCESSORS
 #define FID_Unreal_Project_UE5_Study_BOOM_Tank_Source_BOOM_Tank_HealthComponent_h_16_INCLASS_NO_PURE_DECLS \
 private: \

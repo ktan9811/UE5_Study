@@ -10680,3 +10680,607 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.03-05.27.36:131][739]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrints/BP_PawnTurret_Auto2
 [2024.01.03-05.27.36:132][739]LogSavePackage: Moving '../../../../Unreal Project/UE5_Study/BOOM_Tank/Saved/BP_PawnTurret_Auto2C34E50AD444D68EA4B6A21B317D4494F.tmp' to '../../../../Unreal Project/UE5_Study/BOOM_Tank/Saved/Autosaves/Game/BluePrints/BP_PawnTurret_Auto2.uasset'
 [2024.01.03-05.27.36:132][739]LogFileHelpers: Auto-saving content packages took 0.082
+[2024.01.03-05.29.21:997][ 57]LogHotReload: New module detected: UnrealEditor-BOOM_Tank-0005.dll
+[2024.01.03-05.29.23:025][ 61]LogHotReload: Starting Hot-Reload from IDE
+[2024.01.03-05.29.23:135][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.01.03-05.29.23:528][ 61]LogClass: UPackage /Script/BOOM_Tank Reload.
+[2024.01.03-05.29.23:528][ 61]LogClass: UClass HealthComponent Reload.
+[2024.01.03-05.29.23:535][ 61]LogClass: Could not find existing class HealthComponent in package /Script/BOOM_Tank for reload, assuming new or modified class
+[2024.01.03-05.29.23:535][ 61]LogClass: Function DamageTaken is new or belongs to a modified class.
+[2024.01.03-05.29.23:554][ 61]LogUObjectGlobals: Error: CDO Constructor (BOOM_TankGameMode): Failed to find /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+
+[2024.01.03-05.29.23:558][ 61]Re-instancing HealthComponent after reload.
+[2024.01.03-05.29.23:674][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.01.03-05.29.23:725][ 61]Display: HotReload took  0.7s.
+[2024.01.03-05.29.23:725][ 61]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 6 classes unchanged, 1 function remapped
+[2024.01.03-06.09.52:071][341]LogDerivedDataCache: C:/Users/rlxo8/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.112 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 994 files in 1669 folders with total size 26 MiB.
+[2024.01.03-07.09.52:052][135]LogDerivedDataCache: C:/Users/rlxo8/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.092 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 994 files in 1669 folders with total size 26 MiB.
+[2024.01.03-07.52.28:651][822]LogHotReload: New module detected: UnrealEditor-BOOM_Tank-0006.dll
+[2024.01.03-07.52.29:994][827]LogHotReload: Starting Hot-Reload from IDE
+[2024.01.03-07.52.30:132][827]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2024.01.03-07.52.30:520][827]LogClass: UPackage /Script/BOOM_Tank Reload.
+[2024.01.03-07.52.30:520][827]LogClass: UClass Projectile Reload.
+[2024.01.03-07.52.30:531][827]LogClass: Could not find existing class Projectile in package /Script/BOOM_Tank for reload, assuming new or modified class
+[2024.01.03-07.52.30:531][827]LogClass: Function OnHit is new or belongs to a modified class.
+[2024.01.03-07.52.30:553][827]LogUObjectGlobals: Error: CDO Constructor (BOOM_TankGameMode): Failed to find /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+
+[2024.01.03-07.52.30:558][827]Re-instancing Projectile after reload.
+[2024.01.03-07.52.30:742][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.01.03-07.52.30:806][827]Display: HotReload took  0.8s.
+[2024.01.03-07.52.30:806][827]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 6 classes unchanged, 1 function remapped
+[2024.01.03-07.52.35:926][ 28]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2024.01.03-07.52.35:937][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.03-07.52.35:937][ 28]PIE: New page: PIE 세션: Base_Map (2024. 1. 4. 오전 1:52:35)
+[2024.01.03-07.52.35:937][ 28]LogPlayLevel: Display: Creating online subsystem for client :Context_16
+[2024.01.03-07.52.35:940][ 28]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.01.03-07.52.35:960][ 29]LogPlayLevel: Creating play world package: /Game/MAP/UEDPIE_0_Base_Map
+[2024.01.03-07.52.35:964][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003420s)
+[2024.01.03-07.52.35:964][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAP/Base_Map.Base_Map to /Game/MAP/UEDPIE_0_Base_Map.Base_Map (0.003511s)
+[2024.01.03-07.52.36:031][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.01.03-07.52.36:033][ 29]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.03-07.52.36:033][ 29]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.03-07.52.36:034][ 29]LogAIModule: Creating AISystem for world Base_Map
+[2024.01.03-07.52.36:034][ 29]LogPlayLevel: PIE: World Init took: (0.001687s)
+[2024.01.03-07.52.36:034][ 29]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.01.03-07.52.36:034][ 29]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.03-07.52.36:034][ 29]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.03-07.52.36:034][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.03-07.52.36:035][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.03-07.52.36:035][ 29]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.03-07.52.36:035][ 29]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.03-07.52.36:035][ 29]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.03-07.52.36:035][ 29]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.03-07.52.36:035][ 29]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.03-07.52.36:035][ 29]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.03-07.52.36:035][ 29]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.03-07.52.36:038][ 29]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.03-07.52.36:108][ 29]LogAudioMixer: Display: Using Audio Hardware Device 스피커(High Definition Audio Device)
+[2024.01.03-07.52.36:108][ 29]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.03-07.52.36:108][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.03-07.52.36:108][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.03-07.52.36:108][ 29]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.01.03-07.52.36:108][ 29]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.01.03-07.52.36:111][ 29]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.01.03-07.52.36:111][ 29]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.01.03-07.52.36:111][ 29]LogInit: FAudioDevice initialized with ID 7.
+[2024.01.03-07.52.36:111][ 29]LogAudio: Display: Audio Device (ID: 7) registered with world 'Base_Map'.
+[2024.01.03-07.52.36:111][ 29]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.03-07.52.36:118][ 29]LogLoad: Game class is 'BOOM_TankGameMode'
+[2024.01.03-07.52.36:119][ 29]LogWorld: Bringing World /Game/MAP/UEDPIE_0_Base_Map.Base_Map up for play (max tick rate 0) at 2024.01.03-16.52.36
+[2024.01.03-07.52.36:120][ 29]LogWorld: Bringing up level for play took: 0.001430
+[2024.01.03-07.52.36:121][ 29]LogBlueprintUserMessages: [BP_PawnTank_C_1] 10
+[2024.01.03-07.52.36:121][ 29]LogBlueprintUserMessages: [BP_PawnTank_C_1] 50
+[2024.01.03-07.52.36:121][ 29]PIE: 서버가 로그인했습니다.
+[2024.01.03-07.52.36:122][ 29]PIE: 에디터에서 플레이 총 시작 시간 0.187초입니다.
+[2024.01.03-07.52.38:012][243]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.38:017][243]LogTemp: Warning: Health : 50.000000
+[2024.01.03-07.52.38:466][265]LogSlate: Took 0.016073 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.01.03-07.52.38:466][265]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ϰ (U+03f0)'
+[2024.01.03-07.52.38:488][265]LogSlate: Took 0.021450 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2024.01.03-07.52.39:989][410]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.39:990][410]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:493][590]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:493][590]LogTemp: Warning: Health : 0.000000
+[2024.01.03-07.52.41:501][591]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:501][591]LogTemp: Warning: Health : -50.000000
+[2024.01.03-07.52.41:509][592]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:509][592]LogTemp: Warning: Health : -100.000000
+[2024.01.03-07.52.41:518][593]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:518][593]LogTemp: Warning: Health : -150.000000
+[2024.01.03-07.52.41:526][594]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:526][594]LogTemp: Warning: Health : -200.000000
+[2024.01.03-07.52.41:535][595]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:535][595]LogTemp: Warning: Health : -250.000000
+[2024.01.03-07.52.41:543][596]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:543][596]LogTemp: Warning: Health : -300.000000
+[2024.01.03-07.52.41:552][597]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:552][597]LogTemp: Warning: Health : -350.000000
+[2024.01.03-07.52.41:560][598]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:560][598]LogTemp: Warning: Health : -400.000000
+[2024.01.03-07.52.41:568][599]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:568][599]LogTemp: Warning: Health : -450.000000
+[2024.01.03-07.52.41:576][600]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:576][600]LogTemp: Warning: Health : -500.000000
+[2024.01.03-07.52.41:585][601]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:585][601]LogTemp: Warning: Health : -550.000000
+[2024.01.03-07.52.41:593][602]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:593][602]LogTemp: Warning: Health : -600.000000
+[2024.01.03-07.52.41:602][603]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:602][603]LogTemp: Warning: Health : -650.000000
+[2024.01.03-07.52.41:609][604]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:610][604]LogTemp: Warning: Health : -700.000000
+[2024.01.03-07.52.41:618][605]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:618][605]LogTemp: Warning: Health : -750.000000
+[2024.01.03-07.52.41:626][606]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:626][606]LogTemp: Warning: Health : -800.000000
+[2024.01.03-07.52.41:635][607]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:635][607]LogTemp: Warning: Health : -850.000000
+[2024.01.03-07.52.41:643][608]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:643][608]LogTemp: Warning: Health : -900.000000
+[2024.01.03-07.52.41:651][609]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:651][609]LogTemp: Warning: Health : -950.000000
+[2024.01.03-07.52.41:660][610]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:660][610]LogTemp: Warning: Health : -1000.000000
+[2024.01.03-07.52.41:668][611]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:668][611]LogTemp: Warning: Health : -1050.000000
+[2024.01.03-07.52.41:676][612]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:676][612]LogTemp: Warning: Health : -1100.000000
+[2024.01.03-07.52.41:685][613]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:685][613]LogTemp: Warning: Health : -1150.000000
+[2024.01.03-07.52.41:693][614]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:693][614]LogTemp: Warning: Health : -1200.000000
+[2024.01.03-07.52.41:701][615]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:701][615]LogTemp: Warning: Health : -1250.000000
+[2024.01.03-07.52.41:710][616]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:710][616]LogTemp: Warning: Health : -1300.000000
+[2024.01.03-07.52.41:718][617]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:718][617]LogTemp: Warning: Health : -1350.000000
+[2024.01.03-07.52.41:726][618]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:726][618]LogTemp: Warning: Health : -1400.000000
+[2024.01.03-07.52.41:735][619]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:735][619]LogTemp: Warning: Health : -1450.000000
+[2024.01.03-07.52.41:743][620]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:743][620]LogTemp: Warning: Health : -1500.000000
+[2024.01.03-07.52.41:752][621]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:752][621]LogTemp: Warning: Health : -1550.000000
+[2024.01.03-07.52.41:760][622]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:760][622]LogTemp: Warning: Health : -1600.000000
+[2024.01.03-07.52.41:768][623]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:768][623]LogTemp: Warning: Health : -1650.000000
+[2024.01.03-07.52.41:776][624]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:776][624]LogTemp: Warning: Health : -1700.000000
+[2024.01.03-07.52.41:785][625]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:785][625]LogTemp: Warning: Health : -1750.000000
+[2024.01.03-07.52.41:793][626]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:793][626]LogTemp: Warning: Health : -1800.000000
+[2024.01.03-07.52.41:802][627]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:802][627]LogTemp: Warning: Health : -1850.000000
+[2024.01.03-07.52.41:810][628]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:810][628]LogTemp: Warning: Health : -1900.000000
+[2024.01.03-07.52.41:818][629]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:818][629]LogTemp: Warning: Health : -1950.000000
+[2024.01.03-07.52.41:827][630]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:827][630]LogTemp: Warning: Health : -2000.000000
+[2024.01.03-07.52.41:835][631]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:835][631]LogTemp: Warning: Health : -2050.000000
+[2024.01.03-07.52.41:844][632]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:844][632]LogTemp: Warning: Health : -2100.000000
+[2024.01.03-07.52.41:852][633]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:852][633]LogTemp: Warning: Health : -2150.000000
+[2024.01.03-07.52.41:860][634]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:860][634]LogTemp: Warning: Health : -2200.000000
+[2024.01.03-07.52.41:868][635]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:868][635]LogTemp: Warning: Health : -2250.000000
+[2024.01.03-07.52.41:877][636]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:877][636]LogTemp: Warning: Health : -2300.000000
+[2024.01.03-07.52.41:972][647]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.41:972][647]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.44:094][900]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.44:094][900]LogTemp: Warning: Health : -2350.000000
+[2024.01.03-07.52.46:178][142]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.46:178][142]LogTemp: Warning: Health : -2400.000000
+[2024.01.03-07.52.47:464][288]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:464][288]LogTemp: Warning: Health : -2450.000000
+[2024.01.03-07.52.47:472][289]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:472][289]LogTemp: Warning: Health : -2500.000000
+[2024.01.03-07.52.47:480][290]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:481][290]LogTemp: Warning: Health : -2550.000000
+[2024.01.03-07.52.47:489][291]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:489][291]LogTemp: Warning: Health : -2600.000000
+[2024.01.03-07.52.47:497][292]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:497][292]LogTemp: Warning: Health : -2650.000000
+[2024.01.03-07.52.47:505][293]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:506][293]LogTemp: Warning: Health : -2700.000000
+[2024.01.03-07.52.47:514][294]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:514][294]LogTemp: Warning: Health : -2750.000000
+[2024.01.03-07.52.47:522][295]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:522][295]LogTemp: Warning: Health : -2800.000000
+[2024.01.03-07.52.47:530][296]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:530][296]LogTemp: Warning: Health : -2850.000000
+[2024.01.03-07.52.47:539][297]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:539][297]LogTemp: Warning: Health : -2900.000000
+[2024.01.03-07.52.47:547][298]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:547][298]LogTemp: Warning: Health : -2950.000000
+[2024.01.03-07.52.47:556][299]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:556][299]LogTemp: Warning: Health : -3000.000000
+[2024.01.03-07.52.47:564][300]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:564][300]LogTemp: Warning: Health : -3050.000000
+[2024.01.03-07.52.47:572][301]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:573][301]LogTemp: Warning: Health : -3100.000000
+[2024.01.03-07.52.47:581][302]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:581][302]LogTemp: Warning: Health : -3150.000000
+[2024.01.03-07.52.47:589][303]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:589][303]LogTemp: Warning: Health : -3200.000000
+[2024.01.03-07.52.47:598][304]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:598][304]LogTemp: Warning: Health : -3250.000000
+[2024.01.03-07.52.47:606][305]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:606][305]LogTemp: Warning: Health : -3300.000000
+[2024.01.03-07.52.47:614][306]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:614][306]LogTemp: Warning: Health : -3350.000000
+[2024.01.03-07.52.47:622][307]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:623][307]LogTemp: Warning: Health : -3400.000000
+[2024.01.03-07.52.47:631][308]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:631][308]LogTemp: Warning: Health : -3450.000000
+[2024.01.03-07.52.47:639][309]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:639][309]LogTemp: Warning: Health : -3500.000000
+[2024.01.03-07.52.47:648][310]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:648][310]LogTemp: Warning: Health : -3550.000000
+[2024.01.03-07.52.47:656][311]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:656][311]LogTemp: Warning: Health : -3600.000000
+[2024.01.03-07.52.47:664][312]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:664][312]LogTemp: Warning: Health : -3650.000000
+[2024.01.03-07.52.47:673][313]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:673][313]LogTemp: Warning: Health : -3700.000000
+[2024.01.03-07.52.47:681][314]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:681][314]LogTemp: Warning: Health : -3750.000000
+[2024.01.03-07.52.47:690][315]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:690][315]LogTemp: Warning: Health : -3800.000000
+[2024.01.03-07.52.47:698][316]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:698][316]LogTemp: Warning: Health : -3850.000000
+[2024.01.03-07.52.47:706][317]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:706][317]LogTemp: Warning: Health : -3900.000000
+[2024.01.03-07.52.47:715][318]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:715][318]LogTemp: Warning: Health : -3950.000000
+[2024.01.03-07.52.47:723][319]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:723][319]LogTemp: Warning: Health : -4000.000000
+[2024.01.03-07.52.47:732][320]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:732][320]LogTemp: Warning: Health : -4050.000000
+[2024.01.03-07.52.47:740][321]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:740][321]LogTemp: Warning: Health : -4100.000000
+[2024.01.03-07.52.47:749][322]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:749][322]LogTemp: Warning: Health : -4150.000000
+[2024.01.03-07.52.47:759][323]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:759][323]LogTemp: Warning: Health : -4200.000000
+[2024.01.03-07.52.47:768][324]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:769][324]LogTemp: Warning: Health : -4250.000000
+[2024.01.03-07.52.47:778][325]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:778][325]LogTemp: Warning: Health : -4300.000000
+[2024.01.03-07.52.47:787][326]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:787][326]LogTemp: Warning: Health : -4350.000000
+[2024.01.03-07.52.47:795][327]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:796][327]LogTemp: Warning: Health : -4400.000000
+[2024.01.03-07.52.47:804][328]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:804][328]LogTemp: Warning: Health : -4450.000000
+[2024.01.03-07.52.47:813][329]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:813][329]LogTemp: Warning: Health : -4500.000000
+[2024.01.03-07.52.47:821][330]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:821][330]LogTemp: Warning: Health : -4550.000000
+[2024.01.03-07.52.47:829][331]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:829][331]LogTemp: Warning: Health : -4600.000000
+[2024.01.03-07.52.47:837][332]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:837][332]LogTemp: Warning: Health : -4650.000000
+[2024.01.03-07.52.47:845][333]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:846][333]LogTemp: Warning: Health : -4700.000000
+[2024.01.03-07.52.47:854][334]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:854][334]LogTemp: Warning: Health : -4750.000000
+[2024.01.03-07.52.47:863][335]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:863][335]LogTemp: Warning: Health : -4800.000000
+[2024.01.03-07.52.47:871][336]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:871][336]LogTemp: Warning: Health : -4850.000000
+[2024.01.03-07.52.47:880][337]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:880][337]LogTemp: Warning: Health : -4900.000000
+[2024.01.03-07.52.47:889][338]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:889][338]LogTemp: Warning: Health : -4950.000000
+[2024.01.03-07.52.47:897][339]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:897][339]LogTemp: Warning: Health : -5000.000000
+[2024.01.03-07.52.47:906][340]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:906][340]LogTemp: Warning: Health : -5050.000000
+[2024.01.03-07.52.47:915][341]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:915][341]LogTemp: Warning: Health : -5100.000000
+[2024.01.03-07.52.47:923][342]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:923][342]LogTemp: Warning: Health : -5150.000000
+[2024.01.03-07.52.47:932][343]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:932][343]LogTemp: Warning: Health : -5200.000000
+[2024.01.03-07.52.47:940][344]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:940][344]LogTemp: Warning: Health : -5250.000000
+[2024.01.03-07.52.47:949][345]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:949][345]LogTemp: Warning: Health : -5300.000000
+[2024.01.03-07.52.47:957][346]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:957][346]LogTemp: Warning: Health : -5350.000000
+[2024.01.03-07.52.47:965][347]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:965][347]LogTemp: Warning: Health : -5400.000000
+[2024.01.03-07.52.47:974][348]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:974][348]LogTemp: Warning: Health : -5450.000000
+[2024.01.03-07.52.47:983][349]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:983][349]LogTemp: Warning: Health : -5500.000000
+[2024.01.03-07.52.47:993][350]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.47:993][350]LogTemp: Warning: Health : -5550.000000
+[2024.01.03-07.52.48:002][351]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.48:002][351]LogTemp: Warning: Health : -5600.000000
+[2024.01.03-07.52.48:011][352]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.48:011][352]LogTemp: Warning: Health : -5650.000000
+[2024.01.03-07.52.48:019][353]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.48:019][353]LogTemp: Warning: Health : -5700.000000
+[2024.01.03-07.52.48:028][354]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.48:028][354]LogTemp: Warning: Health : -5750.000000
+[2024.01.03-07.52.48:037][355]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.48:037][355]LogTemp: Warning: Health : -5800.000000
+[2024.01.03-07.52.48:045][356]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.48:045][356]LogTemp: Warning: Health : -5850.000000
+[2024.01.03-07.52.48:130][366]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.48:130][366]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.50:384][628]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.51:766][793]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.51:766][793]LogTemp: Warning: Health : 50.000000
+[2024.01.03-07.52.52:139][833]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.52:139][833]LogTemp: Warning: Health : -5900.000000
+[2024.01.03-07.52.54:165][ 76]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:165][ 76]LogTemp: Warning: Health : -5950.000000
+[2024.01.03-07.52.54:190][ 79]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:190][ 79]LogTemp: Warning: Health : -6000.000000
+[2024.01.03-07.52.54:198][ 80]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:198][ 80]LogTemp: Warning: Health : -6050.000000
+[2024.01.03-07.52.54:207][ 81]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:207][ 81]LogTemp: Warning: Health : -6100.000000
+[2024.01.03-07.52.54:215][ 82]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:215][ 82]LogTemp: Warning: Health : -6150.000000
+[2024.01.03-07.52.54:223][ 83]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:224][ 83]LogTemp: Warning: Health : -6200.000000
+[2024.01.03-07.52.54:232][ 84]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:232][ 84]LogTemp: Warning: Health : -6250.000000
+[2024.01.03-07.52.54:240][ 85]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:240][ 85]LogTemp: Warning: Health : -6300.000000
+[2024.01.03-07.52.54:248][ 86]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:248][ 86]LogTemp: Warning: Health : -6350.000000
+[2024.01.03-07.52.54:257][ 87]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:257][ 87]LogTemp: Warning: Health : -6400.000000
+[2024.01.03-07.52.54:265][ 88]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:265][ 88]LogTemp: Warning: Health : -6450.000000
+[2024.01.03-07.52.54:273][ 89]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:273][ 89]LogTemp: Warning: Health : -6500.000000
+[2024.01.03-07.52.54:282][ 90]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:282][ 90]LogTemp: Warning: Health : -6550.000000
+[2024.01.03-07.52.54:290][ 91]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:290][ 91]LogTemp: Warning: Health : -6600.000000
+[2024.01.03-07.52.54:298][ 92]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:298][ 92]LogTemp: Warning: Health : -6650.000000
+[2024.01.03-07.52.54:307][ 93]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:307][ 93]LogTemp: Warning: Health : -6700.000000
+[2024.01.03-07.52.54:315][ 94]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:315][ 94]LogTemp: Warning: Health : -6750.000000
+[2024.01.03-07.52.54:324][ 95]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:324][ 95]LogTemp: Warning: Health : -6800.000000
+[2024.01.03-07.52.54:332][ 96]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:332][ 96]LogTemp: Warning: Health : -6850.000000
+[2024.01.03-07.52.54:340][ 97]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:340][ 97]LogTemp: Warning: Health : -6900.000000
+[2024.01.03-07.52.54:349][ 98]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:349][ 98]LogTemp: Warning: Health : -6950.000000
+[2024.01.03-07.52.54:357][ 99]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:357][ 99]LogTemp: Warning: Health : -7000.000000
+[2024.01.03-07.52.54:365][100]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:365][100]LogTemp: Warning: Health : -7050.000000
+[2024.01.03-07.52.54:374][101]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:374][101]LogTemp: Warning: Health : -7100.000000
+[2024.01.03-07.52.54:382][102]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:382][102]LogTemp: Warning: Health : -7150.000000
+[2024.01.03-07.52.54:390][103]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:390][103]LogTemp: Warning: Health : -7200.000000
+[2024.01.03-07.52.54:399][104]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:399][104]LogTemp: Warning: Health : -7250.000000
+[2024.01.03-07.52.54:407][105]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:407][105]LogTemp: Warning: Health : -7300.000000
+[2024.01.03-07.52.54:415][106]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:415][106]LogTemp: Warning: Health : -7350.000000
+[2024.01.03-07.52.54:424][107]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:424][107]LogTemp: Warning: Health : -7400.000000
+[2024.01.03-07.52.54:432][108]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:432][108]LogTemp: Warning: Health : -7450.000000
+[2024.01.03-07.52.54:440][109]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:440][109]LogTemp: Warning: Health : -7500.000000
+[2024.01.03-07.52.54:449][110]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:449][110]LogTemp: Warning: Health : -7550.000000
+[2024.01.03-07.52.54:457][111]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:457][111]LogTemp: Warning: Health : -7600.000000
+[2024.01.03-07.52.54:465][112]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:465][112]LogTemp: Warning: Health : -7650.000000
+[2024.01.03-07.52.54:474][113]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:474][113]LogTemp: Warning: Health : -7700.000000
+[2024.01.03-07.52.54:482][114]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:482][114]LogTemp: Warning: Health : -7750.000000
+[2024.01.03-07.52.54:490][115]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:490][115]LogTemp: Warning: Health : -7800.000000
+[2024.01.03-07.52.54:499][116]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:499][116]LogTemp: Warning: Health : -7850.000000
+[2024.01.03-07.52.54:507][117]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:507][117]LogTemp: Warning: Health : -7900.000000
+[2024.01.03-07.52.54:515][118]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:515][118]LogTemp: Warning: Health : -7950.000000
+[2024.01.03-07.52.54:524][119]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:524][119]LogTemp: Warning: Health : -8000.000000
+[2024.01.03-07.52.54:532][120]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:532][120]LogTemp: Warning: Health : -8050.000000
+[2024.01.03-07.52.54:540][121]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:540][121]LogTemp: Warning: Health : -8100.000000
+[2024.01.03-07.52.54:549][122]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:549][122]LogTemp: Warning: Health : -8150.000000
+[2024.01.03-07.52.54:558][123]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.54:558][123]LogTemp: Warning: Health : -8200.000000
+[2024.01.03-07.52.55:537][240]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:537][240]LogTemp: Warning: Health : -8250.000000
+[2024.01.03-07.52.55:545][241]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:545][241]LogTemp: Warning: Health : -8300.000000
+[2024.01.03-07.52.55:554][242]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:554][242]LogTemp: Warning: Health : -8350.000000
+[2024.01.03-07.52.55:562][243]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:562][243]LogTemp: Warning: Health : -8400.000000
+[2024.01.03-07.52.55:570][244]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:570][244]LogTemp: Warning: Health : -8450.000000
+[2024.01.03-07.52.55:579][245]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:579][245]LogTemp: Warning: Health : -8500.000000
+[2024.01.03-07.52.55:587][246]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:587][246]LogTemp: Warning: Health : -8550.000000
+[2024.01.03-07.52.55:595][247]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:595][247]LogTemp: Warning: Health : -8600.000000
+[2024.01.03-07.52.55:604][248]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:604][248]LogTemp: Warning: Health : -8650.000000
+[2024.01.03-07.52.55:612][249]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:612][249]LogTemp: Warning: Health : -8700.000000
+[2024.01.03-07.52.55:620][250]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:620][250]LogTemp: Warning: Health : -8750.000000
+[2024.01.03-07.52.55:629][251]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:629][251]LogTemp: Warning: Health : -8800.000000
+[2024.01.03-07.52.55:637][252]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:637][252]LogTemp: Warning: Health : -8850.000000
+[2024.01.03-07.52.55:645][253]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:646][253]LogTemp: Warning: Health : -8900.000000
+[2024.01.03-07.52.55:654][254]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:654][254]LogTemp: Warning: Health : -8950.000000
+[2024.01.03-07.52.55:662][255]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:662][255]LogTemp: Warning: Health : -9000.000000
+[2024.01.03-07.52.55:670][256]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:670][256]LogTemp: Warning: Health : -9050.000000
+[2024.01.03-07.52.55:679][257]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:679][257]LogTemp: Warning: Health : -9100.000000
+[2024.01.03-07.52.55:688][258]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:688][258]LogTemp: Warning: Health : -9150.000000
+[2024.01.03-07.52.55:696][259]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:696][259]LogTemp: Warning: Health : -9200.000000
+[2024.01.03-07.52.55:704][260]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:704][260]LogTemp: Warning: Health : -9250.000000
+[2024.01.03-07.52.55:713][261]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:713][261]LogTemp: Warning: Health : -9300.000000
+[2024.01.03-07.52.55:721][262]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:721][262]LogTemp: Warning: Health : -9350.000000
+[2024.01.03-07.52.55:729][263]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:729][263]LogTemp: Warning: Health : -9400.000000
+[2024.01.03-07.52.55:738][264]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:738][264]LogTemp: Warning: Health : -9450.000000
+[2024.01.03-07.52.55:746][265]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:746][265]LogTemp: Warning: Health : -9500.000000
+[2024.01.03-07.52.55:754][266]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:755][266]LogTemp: Warning: Health : -9550.000000
+[2024.01.03-07.52.55:763][267]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:763][267]LogTemp: Warning: Health : -9600.000000
+[2024.01.03-07.52.55:771][268]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:771][268]LogTemp: Warning: Health : -9650.000000
+[2024.01.03-07.52.55:780][269]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:780][269]LogTemp: Warning: Health : -9700.000000
+[2024.01.03-07.52.55:788][270]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:788][270]LogTemp: Warning: Health : -9750.000000
+[2024.01.03-07.52.55:796][271]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:796][271]LogTemp: Warning: Health : -9800.000000
+[2024.01.03-07.52.55:805][272]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.55:805][272]LogTemp: Warning: Health : -9850.000000
+[2024.01.03-07.52.56:376][340]LogTemp: Warning: HIT! 
+[2024.01.03-07.52.58:385][581]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.00:045][779]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.00:080][783]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.00:081][783]LogTemp: Warning: Health : -9900.000000
+[2024.01.03-07.53.00:423][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-07.53.00:423][820]LogWorld: BeginTearingDown for /Game/MAP/UEDPIE_0_Base_Map
+[2024.01.03-07.53.00:423][820]LogWorld: UWorld::CleanupWorld for Base_Map, bSessionEnded=true, bCleanupResources=true
+[2024.01.03-07.53.00:423][820]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.03-07.53.00:427][820]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.03-07.53.00:433][820]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.03-07.53.00:447][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-07.53.00:447][820]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.03-07.53.00:448][820]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.03-07.53.00:449][820]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.03-07.53.00:457][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.01.03-07.53.00:584][821]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.01.03-07.53.39:316][  7]LogHotReload: New module detected: UnrealEditor-BOOM_Tank-0007.dll
+[2024.01.03-07.53.40:327][ 11]LogHotReload: Starting Hot-Reload from IDE
+[2024.01.03-07.53.40:400][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.01.03-07.53.40:758][ 11]LogUObjectGlobals: Error: CDO Constructor (BOOM_TankGameMode): Failed to find /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+
+[2024.01.03-07.53.40:845][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.01.03-07.53.40:894][ 11]Display: HotReload took  0.6s.
+[2024.01.03-07.53.40:894][ 11]Display: Reload/Re-instancing Complete: 1 package changed, 7 classes unchanged, 2 functions remapped
+[2024.01.03-07.53.43:185][ 77]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2024.01.03-07.53.43:194][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.03-07.53.43:194][ 77]PIE: New page: PIE 세션: Base_Map (2024. 1. 4. 오전 1:53:43)
+[2024.01.03-07.53.43:222][ 77]LogPlayLevel: Display: Creating online subsystem for client :Context_17
+[2024.01.03-07.53.43:224][ 77]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.01.03-07.53.43:243][ 78]LogPlayLevel: Creating play world package: /Game/MAP/UEDPIE_0_Base_Map
+[2024.01.03-07.53.43:246][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003280s)
+[2024.01.03-07.53.43:246][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAP/Base_Map.Base_Map to /Game/MAP/UEDPIE_0_Base_Map.Base_Map (0.003325s)
+[2024.01.03-07.53.43:308][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.01.03-07.53.43:310][ 78]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.03-07.53.43:310][ 78]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.03-07.53.43:311][ 78]LogAIModule: Creating AISystem for world Base_Map
+[2024.01.03-07.53.43:311][ 78]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2024.01.03-07.53.43:311][ 78]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.01.03-07.53.43:311][ 78]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.03-07.53.43:311][ 78]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.03-07.53.43:311][ 78]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.03-07.53.43:311][ 78]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.03-07.53.43:311][ 78]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.03-07.53.43:311][ 78]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.03-07.53.43:311][ 78]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.03-07.53.43:311][ 78]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.03-07.53.43:312][ 78]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.03-07.53.43:312][ 78]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.03-07.53.43:312][ 78]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.03-07.53.43:314][ 78]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.03-07.53.43:374][ 78]LogAudioMixer: Display: Using Audio Hardware Device 스피커(High Definition Audio Device)
+[2024.01.03-07.53.43:374][ 78]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.03-07.53.43:374][ 78]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.03-07.53.43:374][ 78]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.03-07.53.43:375][ 78]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.01.03-07.53.43:375][ 78]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.01.03-07.53.43:377][ 78]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.01.03-07.53.43:377][ 78]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.01.03-07.53.43:377][ 78]LogInit: FAudioDevice initialized with ID 8.
+[2024.01.03-07.53.43:377][ 78]LogAudio: Display: Audio Device (ID: 8) registered with world 'Base_Map'.
+[2024.01.03-07.53.43:377][ 78]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.01.03-07.53.43:379][ 78]LogLoad: Game class is 'BOOM_TankGameMode'
+[2024.01.03-07.53.43:380][ 78]LogWorld: Bringing World /Game/MAP/UEDPIE_0_Base_Map.Base_Map up for play (max tick rate 0) at 2024.01.03-16.53.43
+[2024.01.03-07.53.43:381][ 78]LogWorld: Bringing up level for play took: 0.001003
+[2024.01.03-07.53.43:381][ 78]LogBlueprintUserMessages: [BP_PawnTank_C_1] 10
+[2024.01.03-07.53.43:381][ 78]LogBlueprintUserMessages: [BP_PawnTank_C_1] 50
+[2024.01.03-07.53.43:381][ 78]PIE: 서버가 로그인했습니다.
+[2024.01.03-07.53.43:382][ 78]PIE: 에디터에서 플레이 총 시작 시간 0.189초입니다.
+[2024.01.03-07.53.45:275][286]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.45:275][286]LogTemp: Warning: Health : 50.000000
+[2024.01.03-07.53.47:464][547]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.47:464][547]LogTemp: Warning: Health : 0.000000
+[2024.01.03-07.53.48:922][720]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.49:454][783]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.49:454][783]LogTemp: Warning: Health : -50.000000
+[2024.01.03-07.53.51:562][ 35]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.51:562][ 35]LogTemp: Warning: Health : -100.000000
+[2024.01.03-07.53.52:292][122]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.52:292][122]LogTemp: Warning: Health : 50.000000
+[2024.01.03-07.53.53:475][263]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.53:476][263]LogTemp: Warning: Health : -150.000000
+[2024.01.03-07.53.53:982][323]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.53:982][323]LogTemp: Warning: Health : 0.000000
+[2024.01.03-07.53.54:867][423]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.54:868][423]LogTemp: Warning: Health : -50.000000
+[2024.01.03-07.53.55:094][450]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.55:094][450]LogTemp: Warning: Health : -100.000000
+[2024.01.03-07.53.55:253][469]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.55:254][469]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.55:462][494]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.55:462][494]LogTemp: Warning: Health : -150.000000
+[2024.01.03-07.53.55:631][514]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.55:631][514]LogTemp: Warning: Health : -200.000000
+[2024.01.03-07.53.55:806][535]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.55:806][535]LogTemp: Warning: Health : -250.000000
+[2024.01.03-07.53.55:982][556]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.55:982][556]LogTemp: Warning: Health : -300.000000
+[2024.01.03-07.53.56:157][577]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.56:157][577]LogTemp: Warning: Health : -350.000000
+[2024.01.03-07.53.56:325][597]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.56:325][597]LogTemp: Warning: Health : -400.000000
+[2024.01.03-07.53.56:491][617]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.56:491][617]LogTemp: Warning: Health : -450.000000
+[2024.01.03-07.53.56:651][636]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.56:651][636]LogTemp: Warning: Health : -500.000000
+[2024.01.03-07.53.56:802][653]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.56:802][653]LogTemp: Warning: Health : -550.000000
+[2024.01.03-07.53.56:965][672]LogTemp: Warning: HIT! 
+[2024.01.03-07.53.56:965][672]LogTemp: Warning: Health : -600.000000
+[2024.01.03-07.53.57:412][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-07.53.57:412][719]LogWorld: BeginTearingDown for /Game/MAP/UEDPIE_0_Base_Map
+[2024.01.03-07.53.57:412][719]LogWorld: UWorld::CleanupWorld for Base_Map, bSessionEnded=true, bCleanupResources=true
+[2024.01.03-07.53.57:412][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.03-07.53.57:416][719]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.03-07.53.57:423][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.03-07.53.57:438][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-07.53.57:439][719]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.01.03-07.53.57:439][719]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.01.03-07.53.57:440][719]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.01.03-07.53.57:474][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.01.03-07.53.57:567][720]LogPlayLevel: Display: Destroying online subsystem :Context_17

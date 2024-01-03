@@ -28,6 +28,10 @@ private:
 	float MaxHealth = 100.0f;
 	float Health = 0.0f;
 
+	//OnTakeAnyDamage에 바인딩 하기 위한 함수
+	UFUNCTION()
+	void DamageTaken(AActor* DamagedActor, float Damage, const UDamageType* DamageType, class AController* Instigator, AActor* DamageCauser);
+
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
