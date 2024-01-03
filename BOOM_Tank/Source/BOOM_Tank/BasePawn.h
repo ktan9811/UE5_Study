@@ -42,4 +42,7 @@ private:											//Ä¸½¶ + ¹Ùµð + ÅÍ·¿ + Åº¾à½ºÆ÷³Ê°¡ Æ÷ÇÔµÊ
 
 	UPROPERTY(EditAnyWhere, Category = "Combat")	//UClass »ý¼º
 	TSubclassOf<class AProjectile> ProjectileClass;
+
+	UPROPERTY(EditAnyWhere, Category = "Combat")
+	class UParticleSystem* DeathParticles;
 };

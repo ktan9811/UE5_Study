@@ -21,5 +21,6 @@ protected:
 
 private:
 	class ATank* Tank;
+	class ABoomTankPlayerController* BoomTankPlayerController;
 	
 };

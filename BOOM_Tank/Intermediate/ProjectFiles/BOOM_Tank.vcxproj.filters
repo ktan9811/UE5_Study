@@ -46,6 +46,12 @@
     <ClInclude Include="..\..\Source\BOOM_Tank\BoomTankGameModeBase.h">
       <Filter>Source\BOOM_Tank</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BOOM_Tank\BoomTankPlayerController.cpp">
+      <Filter>Source\BOOM_Tank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOOM_Tank\BoomTankPlayerController.h">
+      <Filter>Source\BOOM_Tank</Filter>
+    </ClInclude>
     <None Include="..\..\Source\BOOM_Tank\BOOM_Tank.Build.cs">
       <Filter>Source\BOOM_Tank</Filter>
     </None>

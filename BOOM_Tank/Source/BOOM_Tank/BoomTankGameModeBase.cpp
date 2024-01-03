@@ -5,19 +5,19 @@
 #include "Kismet/GameplayStatics.h"
 #include "Tank.h"
 #include "Tower.h"
+#include "BoomTankPlayerController.h"
 
 void ABoomTankGameModeBase::ActorDied(AActor* DeadActor)
 {
 	if (DeadActor == Tank) {
 		Tank->HandleDestruction();
-		if (Tank->GetTankPlayerController())
+		if (BoomTankPlayerController)
 		{
-				Tank->DisableInput(Tank->GetTankPlayerController());
-			Tank->GetTankPlayerController()->bShowMouseCursor = false;
+			BoomTankPlayerController->SetPlayerEnabledState(false);
 		}
 	}
 
-		// Cast가 안되면 nullptr 반환
+	
 	else if (ATower* DestroyedTower = Cast<ATower>(DeadActor)) {
 		DestroyedTower->HandleDestruction();
 	}
@@ -29,4 +29,6 @@ void ABoomTankGameModeBase::BeginPlay()
 	Super::BeginPlay();
 
 	Tank = Cast<ATank>(UGameplayStatics::GetPlayerPawn(this, 0));
+	BoomTankPlayerController = Cast<ABoomTankPlayerController>(UGameplayStatics::GetPlayerController(this, 0));
+
 }
