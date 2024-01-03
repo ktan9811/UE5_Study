@@ -55,18 +55,6 @@
     <ClInclude Include="..\..\Source\BOOM_Tank\BOOM_Tank.h">
       <Filter>Source\BOOM_Tank</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\BOOM_Tank\BOOM_TankCharacter.cpp">
-      <Filter>Source\BOOM_Tank</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BOOM_Tank\BOOM_TankCharacter.h">
-      <Filter>Source\BOOM_Tank</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BOOM_Tank\BOOM_TankGameMode.cpp">
-      <Filter>Source\BOOM_Tank</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BOOM_Tank\BOOM_TankGameMode.h">
-      <Filter>Source\BOOM_Tank</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\BOOM_Tank\HealthComponent.cpp">
       <Filter>Source\BOOM_Tank</Filter>
     </ClCompile>
