@@ -10552,3 +10552,131 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.03-04.45.22:526][956]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
 [2024.01.03-04.45.22:532][956]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
 [2024.01.03-04.45.22:627][957]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.01.03-05.09.52:053][921]LogDerivedDataCache: C:/Users/rlxo8/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.095 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 994 files in 1669 folders with total size 26 MiB.
+[2024.01.03-05.11.20:596][256]LogSlate: Took 0.000589 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.01.03-05.11.43:025][  3]Running E:/UE_5.3/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="E:/Unreal Project/UE5_Study/BOOM_Tank/BOOM_Tank.uproject" -game -rocket -progress
+[2024.01.03-05.11.43:245][  3]Using bundled DotNet SDK version: 6.0.302
+[2024.01.03-05.11.43:245][  3]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="E:/Unreal Project/UE5_Study/BOOM_Tank/BOOM_Tank.uproject" -game -rocket -progress
+[2024.01.03-05.11.43:851][  3]Log file: C:\Users\rlxo8\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2024.01.03-05.11.45:363][  3]
+[2024.01.03-05.11.45:363][  3]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64, TVOS.
+[2024.01.03-05.11.45:363][  3]See the log file for detailed information
+[2024.01.03-05.11.45:363][  3]
+[2024.01.03-05.11.45:363][  3]
+[2024.01.03-05.11.45:363][  3]Generating VisualStudio2022 project files:
+[2024.01.03-05.11.45:463][  3]Discovering modules, targets and source code for project...
+[2024.01.03-05.11.47:475][  3]Binding IntelliSense data...
+[2024.01.03-05.12.08:261][  3]Binding IntelliSense data... 75%
+[2024.01.03-05.12.08:262][  3]Binding IntelliSense data... 100%
+[2024.01.03-05.12.08:380][  3]Creating common properties file...
+[2024.01.03-05.12.08:380][  3]Creating common properties file... 0%
+[2024.01.03-05.12.08:380][  3]Writing project files...
+[2024.01.03-05.12.10:835][  3]Writing project files... 100%
+[2024.01.03-05.12.10:835][  3]
+[2024.01.03-05.12.10:835][  3]Generating QueryTargets data for editor...
+[2024.01.03-05.12.11:183][  3]Candidate modules for hot reload:
+[2024.01.03-05.12.11:183][  3]  BOOM_Tank
+[2024.01.03-05.12.11:189][  3]Launching UnrealBuildTool... [E:/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=BOOM_Tank,9527 BOOM_TankEditor Win64 Development -Project="E:/Unreal Project/UE5_Study/BOOM_Tank/BOOM_Tank.uproject" "E:/Unreal Project/UE5_Study/BOOM_Tank/BOOM_Tank.uproject"  -IgnoreJunk]
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: New page: 컴파일 - 2024. 1. 3. 오후 11:12:19
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=BOOM_Tank,9527 BOOM_TankEditor Win64 Development -Project="E:/Unreal Project/UE5_Study/BOOM_Tank/BOOM_Tank.uproject" "E:/Unreal Project/UE5_Study/BOOM_Tank/BOOM_Tank.uproject"  -IgnoreJunk
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: Log file: C:\Users\rlxo8\AppData\Local\UnrealBuildTool\Log.txt
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Project\UE5_Study).
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: Creating makefile for BOOM_TankEditor (no existing makefile)
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: Parsing headers for BOOM_TankEditor
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog:   Running Internal UnrealHeaderTool "E:\Unreal Project\UE5_Study\BOOM_Tank\BOOM_Tank.uproject" "E:\Unreal Project\UE5_Study\BOOM_Tank\Intermediate\Build\Win64\BOOM_TankEditor\Development\BOOM_TankEditor.uhtmanifest" -WarningsAsErrors -installed
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: Total of 4 written
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: Reflection code generated for BOOM_TankEditor in 1.953655 seconds
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: Building BOOM_TankEditor...
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: Using Visual Studio 2022 14.35.32216 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: ------ Building 9 action(s) started ------
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: [1/9] Compile [x64] BOOM_Tank.init.gen.cpp
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: [2/9] Compile [x64] Projectile.gen.cpp
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: [3/9] Compile [x64] HealthComponent.gen.cpp
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: [4/9] Compile [x64] HealthComponent.cpp
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: [5/9] Compile [x64] Projectile.cpp
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: [6/9] Compile [x64] BasePawn.cpp
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: [7/9] Link [x64] UnrealEditor-BOOM_Tank-9527.lib
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog:    E:\Unreal Project\UE5_Study\BOOM_Tank\Intermediate\Build\Win64\x64\UnrealEditor\Development\BOOM_Tank\UnrealEditor-BOOM_Tank-9527.lib ??̺귯?? ??E:\Unreal Project\UE5_Study\BOOM_Tank\Intermediate\Build\Win64\x64\UnrealEditor\Development\BOOM_Tank\UnrealEditor-BOOM_Tank-9527.exp ??ü?? ??ϰ????ϴ?
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: [8/9] Link [x64] UnrealEditor-BOOM_Tank-9527.dll
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog:    E:\Unreal Project\UE5_Study\BOOM_Tank\Intermediate\Build\Win64\x64\UnrealEditor\Development\BOOM_Tank\UnrealEditor-BOOM_Tank-9527.sup.lib ??̺귯?? ??E:\Unreal Project\UE5_Study\BOOM_Tank\Intermediate\Build\Win64\x64\UnrealEditor\Development\BOOM_Tank\UnrealEditor-BOOM_Tank-9527.sup.exp ??ü?? ??ϰ????ϴ?
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: [9/9] WriteMetadata BOOM_TankEditor.target
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: Total time in Parallel executor: 2.68 seconds
+[2024.01.03-05.12.19:390][  3]CompilerResultsLog: Total execution time: 7.91 seconds
+[2024.01.03-05.12.19:390][  3]LogMainFrame: MainFrame: Module compiling took 8.235 seconds
+[2024.01.03-05.12.19:395][  3]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.01.03-05.12.19:776][  3]LogClass: UPackage /Script/BOOM_Tank Reload.
+[2024.01.03-05.12.19:776][  3]LogClass: UClass Projectile Reload.
+[2024.01.03-05.12.19:778][  3]LogClass: Could not find existing class HealthComponent in package /Script/BOOM_Tank for reload, assuming new or modified class
+[2024.01.03-05.12.19:778][  3]LogClass: Could not find existing class Projectile in package /Script/BOOM_Tank for reload, assuming new or modified class
+[2024.01.03-05.12.19:778][  3]LogClass: Function OnHit is new or belongs to a modified class.
+[2024.01.03-05.12.19:796][  3]LogUObjectGlobals: Error: CDO Constructor (BOOM_TankGameMode): Failed to find /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+
+[2024.01.03-05.12.19:797][  3]Re-instancing Projectile after reload.
+[2024.01.03-05.12.19:842][  3]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.01.03-05.12.19:876][  3]Display: HotReload took  8.7s.
+[2024.01.03-05.12.19:876][  3]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 1 class changed, 5 classes unchanged
+[2024.01.03-05.12.19:876][  3]Warning: HotReload operation took  8.7s.
+[2024.01.03-05.12.20:027][  3]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2024.01.03-05.12.20:040][  3]LogHotReload: New module detected: UnrealEditor-BOOM_Tank-9527.dll
+[2024.01.03-05.12.20:089][  4]LogHotReload: Starting Hot-Reload from IDE
+[2024.01.03-05.12.20:372][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.01.03-05.12.20:384][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.01.03-05.12.20:435][  4]Display: HotReload took  0.3s.
+[2024.01.03-05.12.20:435][  4]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.01.03-05.16.28:376][917]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/BP_PawnTank.BP_PawnTank
+[2024.01.03-05.16.28:378][917]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.03-05.16.28:379][917]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.03-05.16.28:389][917]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.01.03-05.16.38:625][497]LogSlate: Window 'C++ 컴포넌트 추가' being destroyed
+[2024.01.03-05.16.38:636][497]LogUObjectGlobals: Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2024.01.03-05.16.49:883][699]LogViewport: Scene viewport resized to 762x686, mode Windowed.
+[2024.01.03-05.17.04:693][353]BlueprintLog: New page: BP_PawnTank 컴파일
+[2024.01.03-05.17.04:730][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.01.03-05.17.34:521][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.01.03-05.17.34:524][781]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MAP/Base_Map' took 0.017
+[2024.01.03-05.17.34:524][781]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BluePrints/BP_PawnTank] ([2] browsable assets)...
+[2024.01.03-05.17.34:609][781]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/BP_PawnTank.BP_PawnTank]
+[2024.01.03-05.17.34:609][781]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.03-05.17.34:647][781]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/BluePrints/BP_PawnTank.BP_PawnTank_C]
+[2024.01.03-05.17.34:647][781]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BP_PawnTank]
+[2024.01.03-05.17.34:647][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_PawnTank" FILE="../../../../Unreal Project/UE5_Study/BOOM_Tank/Saved/Autosaves/Game/BluePrints/BP_PawnTank_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2024.01.03-05.17.34:656][781]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.008184 seconds
+[2024.01.03-05.17.34:666][781]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrints/BP_PawnTank_Auto1
+[2024.01.03-05.17.34:666][781]LogSavePackage: Moving '../../../../Unreal Project/UE5_Study/BOOM_Tank/Saved/BP_PawnTank_Auto18C7283024E2A4B0B664920A4B7574389.tmp' to '../../../../Unreal Project/UE5_Study/BOOM_Tank/Saved/Autosaves/Game/BluePrints/BP_PawnTank_Auto1.uasset'
+[2024.01.03-05.17.34:667][781]LogFileHelpers: Auto-saving content packages took 0.143
+[2024.01.03-05.17.43:219][576]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/BP_PawnTurret.BP_PawnTurret
+[2024.01.03-05.17.43:219][576]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.03-05.17.43:219][576]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.03-05.17.46:250][905]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.01.03-05.17.46:250][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.03-05.17.46:272][905]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/BP_PawnTurret.BP_PawnTurret
+[2024.01.03-05.17.46:272][905]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.03-05.17.46:272][905]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.03-05.17.54:773][652]BlueprintLog: New page: BP_PawnTurret 컴파일
+[2024.01.03-05.17.54:802][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.01.03-05.18.02:007][705]LogHotReload: New module detected: UnrealEditor-BOOM_Tank-0004.dll
+[2024.01.03-05.18.03:347][710]LogHotReload: Starting Hot-Reload from IDE
+[2024.01.03-05.18.03:429][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.01.03-05.18.03:820][710]LogClass: UPackage /Script/BOOM_Tank Reload.
+[2024.01.03-05.18.03:820][710]LogClass: UClass HealthComponent Reload.
+[2024.01.03-05.18.03:827][710]LogClass: Could not find existing class HealthComponent in package /Script/BOOM_Tank for reload, assuming new or modified class
+[2024.01.03-05.18.03:852][710]LogUObjectGlobals: Error: CDO Constructor (BOOM_TankGameMode): Failed to find /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+
+[2024.01.03-05.18.03:857][710]Re-instancing HealthComponent after reload.
+[2024.01.03-05.18.03:981][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.01.03-05.18.04:038][710]Display: HotReload took  0.7s.
+[2024.01.03-05.18.04:038][710]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 6 classes unchanged, 1 function remapped
+[2024.01.03-05.27.36:048][739]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2024.01.03-05.27.36:050][739]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MAP/Base_Map' took 0.076
+[2024.01.03-05.27.36:051][739]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BluePrints/BP_PawnTurret] ([2] browsable assets)...
+[2024.01.03-05.27.36:104][739]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/BP_PawnTurret.BP_PawnTurret]
+[2024.01.03-05.27.36:105][739]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.03-05.27.36:125][739]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/BluePrints/BP_PawnTurret.BP_PawnTurret_C]
+[2024.01.03-05.27.36:125][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BP_PawnTurret]
+[2024.01.03-05.27.36:125][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_PawnTurret" FILE="../../../../Unreal Project/UE5_Study/BOOM_Tank/Saved/Autosaves/Game/BluePrints/BP_PawnTurret_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2024.01.03-05.27.36:131][739]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrints/BP_PawnTurret_Auto2
+[2024.01.03-05.27.36:132][739]LogSavePackage: Moving '../../../../Unreal Project/UE5_Study/BOOM_Tank/Saved/BP_PawnTurret_Auto2C34E50AD444D68EA4B6A21B317D4494F.tmp' to '../../../../Unreal Project/UE5_Study/BOOM_Tank/Saved/Autosaves/Game/BluePrints/BP_PawnTurret_Auto2.uasset'
+[2024.01.03-05.27.36:132][739]LogFileHelpers: Auto-saving content packages took 0.082

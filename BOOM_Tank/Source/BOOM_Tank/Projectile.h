@@ -35,6 +35,7 @@ private:
 	UPROPERTY(VisibleAnywhere, Category = "Component")
 	class UProjectileMovementComponent* ProjectileMovementComponent;
 
+	//투사체가 충돌 하였을 때 작동하는 함수
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 };
