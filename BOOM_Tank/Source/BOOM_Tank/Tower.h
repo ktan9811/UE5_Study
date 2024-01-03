@@ -12,6 +12,8 @@
  // 2. 탱크 방향으로 터렛을 회전
  // 3. 일정 시간마다 발포
 
+ // 체력이 0이 되면 파괴
+
 UCLASS()
 class BOOM_TANK_API ATower : public ABasePawn
 {
@@ -20,6 +22,7 @@ class BOOM_TANK_API ATower : public ABasePawn
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	void HandleDestruction();
 
 protected:
 	// Called when the game starts or when spawned

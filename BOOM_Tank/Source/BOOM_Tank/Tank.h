@@ -21,6 +21,11 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	void HandleDestruction();
+
+	// Tank의 Controller를 반환
+	APlayerController* GetTankPlayerController() const { return TankPlayerController;  }
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -47,5 +52,6 @@ private:
 	void Move(float Val);
 	void Turn(float Val);
 
-	APlayerController* PlayerControllerRef;
+	// 탱크의 플레이어 컨트롤러 (커서 위치등 확인에 쓰임)
+	APlayerController* TankPlayerController;
 };

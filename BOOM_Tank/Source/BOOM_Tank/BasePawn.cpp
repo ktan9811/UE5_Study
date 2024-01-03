@@ -6,6 +6,12 @@
 #include "Kismet/GameplayStatics.h"
 #include "Projectile.h"
 
+//	터랫과 타워의 베이스가 되는 class
+//	바디, 터렛, 스포너 등이 존재
+//  회전과 발사, 파괴 함수가 존재
+// 
+// 
+// 
 // Sets default values
 ABasePawn::ABasePawn()
 {
@@ -22,6 +28,10 @@ ABasePawn::ABasePawn()
 
 	ProjectileSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Spawn Point"));
 	ProjectileSpawnPoint->SetupAttachment(TurretMesh);		// 터렛에 스포너 부착
+}
+
+void ABasePawn::HandleDestruction()
+{
 }
 
 void ABasePawn::RotateTurret(FVector LookAtTarget)

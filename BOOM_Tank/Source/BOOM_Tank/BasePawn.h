@@ -19,8 +19,7 @@ public:
 	// Sets default values for this pawn's properties
 	ABasePawn();
 
-	UPROPERTY(EditAnyWhere, BlueprintReadWrite)
-	int32 temp = 10;
+	void HandleDestruction();
 
 protected:
 	void RotateTurret(FVector LookAtTarget);

@@ -34,10 +34,6 @@ void EmptyLinkFunctionForGeneratedCodeBasePawn() {}
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_temp_MetaData[];
-#endif
-		static const UECodeGen_Private::FIntPropertyParams NewProp_temp;
-#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_CapsuleComponent_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_CapsuleComponent;
@@ -79,13 +75,6 @@ void EmptyLinkFunctionForGeneratedCodeBasePawn() {}
 #endif
 	};
 #endif
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasePawn_Statics::NewProp_temp_MetaData[] = {
-		{ "Category", "BasePawn" },
-		{ "ModuleRelativePath", "BasePawn.h" },
-	};
-#endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABasePawn_Statics::NewProp_temp = { "temp", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABasePawn, temp), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ABasePawn_Statics::NewProp_temp_MetaData), Z_Construct_UClass_ABasePawn_Statics::NewProp_temp_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasePawn_Statics::NewProp_CapsuleComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -160,7 +149,6 @@ void EmptyLinkFunctionForGeneratedCodeBasePawn() {}
 #endif
 	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ABasePawn_Statics::NewProp_ProjectileClass = { "ProjectileClass", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABasePawn, ProjectileClass), Z_Construct_UClass_UClass, Z_Construct_UClass_AProjectile_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ABasePawn_Statics::NewProp_ProjectileClass_MetaData), Z_Construct_UClass_ABasePawn_Statics::NewProp_ProjectileClass_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABasePawn_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePawn_Statics::NewProp_temp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePawn_Statics::NewProp_CapsuleComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePawn_Statics::NewProp_BaseMesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePawn_Statics::NewProp_TurretMesh,
@@ -205,9 +193,9 @@ void EmptyLinkFunctionForGeneratedCodeBasePawn() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Project_UE5_Study_BOOM_Tank_Source_BOOM_Tank_BasePawn_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ABasePawn, ABasePawn::StaticClass, TEXT("ABasePawn"), &Z_Registration_Info_UClass_ABasePawn, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABasePawn), 1038305641U) },
+		{ Z_Construct_UClass_ABasePawn, ABasePawn::StaticClass, TEXT("ABasePawn"), &Z_Registration_Info_UClass_ABasePawn, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABasePawn), 795322101U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Project_UE5_Study_BOOM_Tank_Source_BOOM_Tank_BasePawn_h_2869979792(TEXT("/Script/BOOM_Tank"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Project_UE5_Study_BOOM_Tank_Source_BOOM_Tank_BasePawn_h_3691318578(TEXT("/Script/BOOM_Tank"),
 		Z_CompiledInDeferFile_FID_Unreal_Project_UE5_Study_BOOM_Tank_Source_BOOM_Tank_BasePawn_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Project_UE5_Study_BOOM_Tank_Source_BOOM_Tank_BasePawn_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

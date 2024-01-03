@@ -31,10 +31,11 @@ private:
 	//OnTakeAnyDamage에 바인딩 하기 위한 함수
 	UFUNCTION()
 	void DamageTaken(AActor* DamagedActor, float Damage, const UDamageType* DamageType, class AController* Instigator, AActor* DamageCauser);
+	
 
+	class ABoomTankGameModeBase* BoomTankGameModeBase;
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-		
 };
