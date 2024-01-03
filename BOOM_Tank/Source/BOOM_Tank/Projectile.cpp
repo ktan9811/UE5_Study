@@ -19,6 +19,7 @@ AProjectile::AProjectile()
 	ProjectileMovementComponent = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement Component"));
 	ProjectileMovementComponent->MaxSpeed = 1300.f;
 	ProjectileMovementComponent->InitialSpeed = 1300.f;
+	ProjectileMovementComponent->ProjectileGravityScale = 0.f;
 }
 
 // Called when the game starts or when spawned
@@ -37,6 +38,7 @@ void AProjectile::Tick(float DeltaTime)
 
 }
 
+//ApplyDamage를 통해 피해를 계산하고 탄약을 파괴
 void AProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
 	UE_LOG(LogTemp, Warning, TEXT("HIT! "));
