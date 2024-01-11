@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\unreal project\\ue5_study\\boom_tank\\source\\boom_tank\\breakablebox.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unreal project\\ue5_study\\boom_tank\\intermediate\\build\\win64\\x64\\boom_tankeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "e:\\unreal project\\ue5_study\\boom_tank\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\boom_tank\\definitions.boom_tank.h",
+            "e:\\unreal project\\ue5_study\\boom_tank\\source\\boom_tank\\breakablebox.h",
+            "e:\\unreal project\\ue5_study\\boom_tank\\intermediate\\build\\win64\\unrealeditor\\inc\\boom_tank\\uht\\breakablebox.generated.h",
+            "e:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "e:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "e:\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "e:\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "e:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "e:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "e:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dialoguetypes.generated.h",
+            "e:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "e:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
+            "e:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
+            "e:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\particles\\particlesystem.h",
+            "e:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\particles\\particleperfstats.h",
+            "e:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\particlesystem.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -5,6 +5,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "Tank.h"
 #include "Tower.h"
+#include "BreakableBox.h"
 #include "BoomTankPlayerController.h"
 #include "TimerManager.h"
 
@@ -21,6 +22,10 @@ void ABoomTankGameModeBase::ActorDied(AActor* DeadActor)
 	
 	else if (ATower* DestroyedTower = Cast<ATower>(DeadActor)) {
 		DestroyedTower->HandleDestruction();
+	}
+
+	else if (ABreakableBox* DestoyedBox = Cast<ABreakableBox>(DeadActor)) {
+		DestoyedBox->HandleDesturction();
 	}
 }
 
